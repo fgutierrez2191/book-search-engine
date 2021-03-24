@@ -1,5 +1,7 @@
 import React from 'react';
+//will provide data to all the other components
 import { ApolloProvider } from '@apollo/react-hooks';
+//to get data when were ready to use it
 import ApolloClient from 'apollo-boost';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SearchBooks from './pages/SearchBooks';
